@@ -1,0 +1,129 @@
+.container1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  input, select {
+    padding: 12px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 250px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: auto;
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+  
+  .list ol {
+    list-style-type: decimal;
+    padding-left: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .list li {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .list li h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .list li p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .list li span {
+    margin-right: 10px;
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .list li button {
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    width: auto;
+    max-width: 100px;
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e53935;
+  }
+  
+  .up-btn, .down-btn {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  .up-btn:hover, .down-btn:hover {
+    background-color: #fb8c00;
+  }
+  
